@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+output/
+not needed/
+old_version/
+
+.env
+.env.local
+
+.faiss
+*.index
+
+dataset/raw/
