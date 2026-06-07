@@ -1,0 +1,974 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "Summarize the judgment in A John Kennedy vs The State Of Tamil Nadu.",
+    "case_name": "A John Kennedy vs The State Of Tamil Nadu",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q002",
+    "query": "What were the main legal issues in A John Kennedy vs The State Of Tamil Nadu?",
+    "case_name": "A John Kennedy vs The State Of Tamil Nadu",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q003",
+    "query": "What was the final verdict or decision in A John Kennedy vs The State Of Tamil Nadu?",
+    "case_name": "A John Kennedy vs The State Of Tamil Nadu",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q004",
+    "query": "Which legal sections or acts were applied in A John Kennedy vs The State Of Tamil Nadu?",
+    "case_name": "A John Kennedy vs The State Of Tamil Nadu",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q005",
+    "query": "What was the reasoning of the court in A John Kennedy vs The State Of Tamil Nadu?",
+    "case_name": "A John Kennedy vs The State Of Tamil Nadu",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q006",
+    "query": "Who were the parties and what was the dispute about in A John Kennedy vs The State Of Tamil Nadu?",
+    "case_name": "A John Kennedy vs The State Of Tamil Nadu",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q007",
+    "query": "Summarize the judgment in A Rajendra vs Gonugunta Madhusudhan Rao.",
+    "case_name": "A Rajendra vs Gonugunta Madhusudhan Rao",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q008",
+    "query": "What were the main legal issues in A Rajendra vs Gonugunta Madhusudhan Rao?",
+    "case_name": "A Rajendra vs Gonugunta Madhusudhan Rao",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q009",
+    "query": "What was the final verdict or decision in A Rajendra vs Gonugunta Madhusudhan Rao?",
+    "case_name": "A Rajendra vs Gonugunta Madhusudhan Rao",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q010",
+    "query": "Which legal sections or acts were applied in A Rajendra vs Gonugunta Madhusudhan Rao?",
+    "case_name": "A Rajendra vs Gonugunta Madhusudhan Rao",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q011",
+    "query": "What was the reasoning of the court in A Rajendra vs Gonugunta Madhusudhan Rao?",
+    "case_name": "A Rajendra vs Gonugunta Madhusudhan Rao",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q012",
+    "query": "Who were the parties and what was the dispute about in A Rajendra vs Gonugunta Madhusudhan Rao?",
+    "case_name": "A Rajendra vs Gonugunta Madhusudhan Rao",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q013",
+    "query": "Summarize the judgment in Abdul Nassar vs The State Of Kerala.",
+    "case_name": "Abdul Nassar vs The State Of Kerala",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q014",
+    "query": "What were the main legal issues in Abdul Nassar vs The State Of Kerala?",
+    "case_name": "Abdul Nassar vs The State Of Kerala",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q015",
+    "query": "What was the final verdict or decision in Abdul Nassar vs The State Of Kerala?",
+    "case_name": "Abdul Nassar vs The State Of Kerala",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q016",
+    "query": "Which legal sections or acts were applied in Abdul Nassar vs The State Of Kerala?",
+    "case_name": "Abdul Nassar vs The State Of Kerala",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q017",
+    "query": "What was the reasoning of the court in Abdul Nassar vs The State Of Kerala?",
+    "case_name": "Abdul Nassar vs The State Of Kerala",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q018",
+    "query": "Who were the parties and what was the dispute about in Abdul Nassar vs The State Of Kerala?",
+    "case_name": "Abdul Nassar vs The State Of Kerala",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q019",
+    "query": "Summarize the judgment in Abdul Wahid vs The State Of Rajasthan.",
+    "case_name": "Abdul Wahid vs The State Of Rajasthan",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q020",
+    "query": "What were the main legal issues in Abdul Wahid vs The State Of Rajasthan?",
+    "case_name": "Abdul Wahid vs The State Of Rajasthan",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q021",
+    "query": "What was the final verdict or decision in Abdul Wahid vs The State Of Rajasthan?",
+    "case_name": "Abdul Wahid vs The State Of Rajasthan",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q022",
+    "query": "Which legal sections or acts were applied in Abdul Wahid vs The State Of Rajasthan?",
+    "case_name": "Abdul Wahid vs The State Of Rajasthan",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q023",
+    "query": "What was the reasoning of the court in Abdul Wahid vs The State Of Rajasthan?",
+    "case_name": "Abdul Wahid vs The State Of Rajasthan",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q024",
+    "query": "Who were the parties and what was the dispute about in Abdul Wahid vs The State Of Rajasthan?",
+    "case_name": "Abdul Wahid vs The State Of Rajasthan",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q025",
+    "query": "Summarize the judgment in Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai.",
+    "case_name": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q026",
+    "query": "What were the main legal issues in Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai?",
+    "case_name": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q027",
+    "query": "What was the final verdict or decision in Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai?",
+    "case_name": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q028",
+    "query": "Which legal sections or acts were applied in Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai?",
+    "case_name": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q029",
+    "query": "What was the reasoning of the court in Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai?",
+    "case_name": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q030",
+    "query": "Who were the parties and what was the dispute about in Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai?",
+    "case_name": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q031",
+    "query": "Summarize the judgment in Airports Authority Of India vs Pradip Kumar Banerjee.",
+    "case_name": "Airports Authority Of India vs Pradip Kumar Banerjee",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q032",
+    "query": "What were the main legal issues in Airports Authority Of India vs Pradip Kumar Banerjee?",
+    "case_name": "Airports Authority Of India vs Pradip Kumar Banerjee",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q033",
+    "query": "What was the final verdict or decision in Airports Authority Of India vs Pradip Kumar Banerjee?",
+    "case_name": "Airports Authority Of India vs Pradip Kumar Banerjee",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q034",
+    "query": "Which legal sections or acts were applied in Airports Authority Of India vs Pradip Kumar Banerjee?",
+    "case_name": "Airports Authority Of India vs Pradip Kumar Banerjee",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q035",
+    "query": "What was the reasoning of the court in Airports Authority Of India vs Pradip Kumar Banerjee?",
+    "case_name": "Airports Authority Of India vs Pradip Kumar Banerjee",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q036",
+    "query": "Who were the parties and what was the dispute about in Airports Authority Of India vs Pradip Kumar Banerjee?",
+    "case_name": "Airports Authority Of India vs Pradip Kumar Banerjee",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q037",
+    "query": "Summarize the judgment in Ajai Kumar Chauhan vs The State Of Uttar Pradesh.",
+    "case_name": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q038",
+    "query": "What were the main legal issues in Ajai Kumar Chauhan vs The State Of Uttar Pradesh?",
+    "case_name": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q039",
+    "query": "What was the final verdict or decision in Ajai Kumar Chauhan vs The State Of Uttar Pradesh?",
+    "case_name": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q040",
+    "query": "Which legal sections or acts were applied in Ajai Kumar Chauhan vs The State Of Uttar Pradesh?",
+    "case_name": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q041",
+    "query": "What was the reasoning of the court in Ajai Kumar Chauhan vs The State Of Uttar Pradesh?",
+    "case_name": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q042",
+    "query": "Who were the parties and what was the dispute about in Ajai Kumar Chauhan vs The State Of Uttar Pradesh?",
+    "case_name": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q043",
+    "query": "Summarize the judgment in Ajay Malik vs State Of Uttarakhand.",
+    "case_name": "Ajay Malik vs State Of Uttarakhand",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q044",
+    "query": "What were the main legal issues in Ajay Malik vs State Of Uttarakhand?",
+    "case_name": "Ajay Malik vs State Of Uttarakhand",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q045",
+    "query": "What was the final verdict or decision in Ajay Malik vs State Of Uttarakhand?",
+    "case_name": "Ajay Malik vs State Of Uttarakhand",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q046",
+    "query": "Which legal sections or acts were applied in Ajay Malik vs State Of Uttarakhand?",
+    "case_name": "Ajay Malik vs State Of Uttarakhand",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q047",
+    "query": "What was the reasoning of the court in Ajay Malik vs State Of Uttarakhand?",
+    "case_name": "Ajay Malik vs State Of Uttarakhand",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q048",
+    "query": "Who were the parties and what was the dispute about in Ajay Malik vs State Of Uttarakhand?",
+    "case_name": "Ajay Malik vs State Of Uttarakhand",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q049",
+    "query": "Summarize the judgment in Ajay Singh vs Khacheru.",
+    "case_name": "Ajay Singh vs Khacheru",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q050",
+    "query": "What were the main legal issues in Ajay Singh vs Khacheru?",
+    "case_name": "Ajay Singh vs Khacheru",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q051",
+    "query": "What was the final verdict or decision in Ajay Singh vs Khacheru?",
+    "case_name": "Ajay Singh vs Khacheru",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q052",
+    "query": "Which legal sections or acts were applied in Ajay Singh vs Khacheru?",
+    "case_name": "Ajay Singh vs Khacheru",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q053",
+    "query": "What was the reasoning of the court in Ajay Singh vs Khacheru?",
+    "case_name": "Ajay Singh vs Khacheru",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q054",
+    "query": "Who were the parties and what was the dispute about in Ajay Singh vs Khacheru?",
+    "case_name": "Ajay Singh vs Khacheru",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q055",
+    "query": "Summarize the judgment in Akshay Gupta vs Icici Bank Limited.",
+    "case_name": "Akshay Gupta vs Icici Bank Limited",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q056",
+    "query": "What were the main legal issues in Akshay Gupta vs Icici Bank Limited?",
+    "case_name": "Akshay Gupta vs Icici Bank Limited",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q057",
+    "query": "What was the final verdict or decision in Akshay Gupta vs Icici Bank Limited?",
+    "case_name": "Akshay Gupta vs Icici Bank Limited",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q058",
+    "query": "Which legal sections or acts were applied in Akshay Gupta vs Icici Bank Limited?",
+    "case_name": "Akshay Gupta vs Icici Bank Limited",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q059",
+    "query": "What was the reasoning of the court in Akshay Gupta vs Icici Bank Limited?",
+    "case_name": "Akshay Gupta vs Icici Bank Limited",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q060",
+    "query": "Who were the parties and what was the dispute about in Akshay Gupta vs Icici Bank Limited?",
+    "case_name": "Akshay Gupta vs Icici Bank Limited",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q061",
+    "query": "Summarize the judgment in Akula Raghuram vs The State Of Andhra Pradesh.",
+    "case_name": "Akula Raghuram vs The State Of Andhra Pradesh",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q062",
+    "query": "What were the main legal issues in Akula Raghuram vs The State Of Andhra Pradesh?",
+    "case_name": "Akula Raghuram vs The State Of Andhra Pradesh",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q063",
+    "query": "What was the final verdict or decision in Akula Raghuram vs The State Of Andhra Pradesh?",
+    "case_name": "Akula Raghuram vs The State Of Andhra Pradesh",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q064",
+    "query": "Which legal sections or acts were applied in Akula Raghuram vs The State Of Andhra Pradesh?",
+    "case_name": "Akula Raghuram vs The State Of Andhra Pradesh",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q065",
+    "query": "What was the reasoning of the court in Akula Raghuram vs The State Of Andhra Pradesh?",
+    "case_name": "Akula Raghuram vs The State Of Andhra Pradesh",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q066",
+    "query": "Who were the parties and what was the dispute about in Akula Raghuram vs The State Of Andhra Pradesh?",
+    "case_name": "Akula Raghuram vs The State Of Andhra Pradesh",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q067",
+    "query": "Summarize the judgment in Amit Kumar vs Union Of India.",
+    "case_name": "Amit Kumar vs Union Of India",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q068",
+    "query": "What were the main legal issues in Amit Kumar vs Union Of India?",
+    "case_name": "Amit Kumar vs Union Of India",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q069",
+    "query": "What was the final verdict or decision in Amit Kumar vs Union Of India?",
+    "case_name": "Amit Kumar vs Union Of India",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q070",
+    "query": "Which legal sections or acts were applied in Amit Kumar vs Union Of India?",
+    "case_name": "Amit Kumar vs Union Of India",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q071",
+    "query": "What was the reasoning of the court in Amit Kumar vs Union Of India?",
+    "case_name": "Amit Kumar vs Union Of India",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q072",
+    "query": "Who were the parties and what was the dispute about in Amit Kumar vs Union Of India?",
+    "case_name": "Amit Kumar vs Union Of India",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q073",
+    "query": "Summarize the judgment in Amrit Yadav vs The State Of Jharkhand.",
+    "case_name": "Amrit Yadav vs The State Of Jharkhand",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q074",
+    "query": "What were the main legal issues in Amrit Yadav vs The State Of Jharkhand?",
+    "case_name": "Amrit Yadav vs The State Of Jharkhand",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q075",
+    "query": "What was the final verdict or decision in Amrit Yadav vs The State Of Jharkhand?",
+    "case_name": "Amrit Yadav vs The State Of Jharkhand",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q076",
+    "query": "Which legal sections or acts were applied in Amrit Yadav vs The State Of Jharkhand?",
+    "case_name": "Amrit Yadav vs The State Of Jharkhand",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q077",
+    "query": "What was the reasoning of the court in Amrit Yadav vs The State Of Jharkhand?",
+    "case_name": "Amrit Yadav vs The State Of Jharkhand",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q078",
+    "query": "Who were the parties and what was the dispute about in Amrit Yadav vs The State Of Jharkhand?",
+    "case_name": "Amrit Yadav vs The State Of Jharkhand",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q079",
+    "query": "Summarize the judgment in Anmol vs Union Of India.",
+    "case_name": "Anmol vs Union Of India",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q080",
+    "query": "What were the main legal issues in Anmol vs Union Of India?",
+    "case_name": "Anmol vs Union Of India",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q081",
+    "query": "What was the final verdict or decision in Anmol vs Union Of India?",
+    "case_name": "Anmol vs Union Of India",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q082",
+    "query": "Which legal sections or acts were applied in Anmol vs Union Of India?",
+    "case_name": "Anmol vs Union Of India",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q083",
+    "query": "What was the reasoning of the court in Anmol vs Union Of India?",
+    "case_name": "Anmol vs Union Of India",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q084",
+    "query": "Who were the parties and what was the dispute about in Anmol vs Union Of India?",
+    "case_name": "Anmol vs Union Of India",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q085",
+    "query": "Summarize the judgment in Anraj Devi vs Deepak Kumar.",
+    "case_name": "Anraj Devi vs Deepak Kumar",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q086",
+    "query": "What were the main legal issues in Anraj Devi vs Deepak Kumar?",
+    "case_name": "Anraj Devi vs Deepak Kumar",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q087",
+    "query": "What was the final verdict or decision in Anraj Devi vs Deepak Kumar?",
+    "case_name": "Anraj Devi vs Deepak Kumar",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q088",
+    "query": "Which legal sections or acts were applied in Anraj Devi vs Deepak Kumar?",
+    "case_name": "Anraj Devi vs Deepak Kumar",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q089",
+    "query": "What was the reasoning of the court in Anraj Devi vs Deepak Kumar?",
+    "case_name": "Anraj Devi vs Deepak Kumar",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q090",
+    "query": "Who were the parties and what was the dispute about in Anraj Devi vs Deepak Kumar?",
+    "case_name": "Anraj Devi vs Deepak Kumar",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q091",
+    "query": "Summarize the judgment in Arun vs State Of Madhya Pradesh.",
+    "case_name": "Arun vs State Of Madhya Pradesh",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q092",
+    "query": "What were the main legal issues in Arun vs State Of Madhya Pradesh?",
+    "case_name": "Arun vs State Of Madhya Pradesh",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q093",
+    "query": "What was the final verdict or decision in Arun vs State Of Madhya Pradesh?",
+    "case_name": "Arun vs State Of Madhya Pradesh",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q094",
+    "query": "Which legal sections or acts were applied in Arun vs State Of Madhya Pradesh?",
+    "case_name": "Arun vs State Of Madhya Pradesh",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q095",
+    "query": "What was the reasoning of the court in Arun vs State Of Madhya Pradesh?",
+    "case_name": "Arun vs State Of Madhya Pradesh",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q096",
+    "query": "Who were the parties and what was the dispute about in Arun vs State Of Madhya Pradesh?",
+    "case_name": "Arun vs State Of Madhya Pradesh",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q097",
+    "query": "Summarize the judgment in Ashok Saxena vs The State Of Uttarakhand.",
+    "case_name": "Ashok Saxena vs The State Of Uttarakhand",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q098",
+    "query": "What were the main legal issues in Ashok Saxena vs The State Of Uttarakhand?",
+    "case_name": "Ashok Saxena vs The State Of Uttarakhand",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q099",
+    "query": "What was the final verdict or decision in Ashok Saxena vs The State Of Uttarakhand?",
+    "case_name": "Ashok Saxena vs The State Of Uttarakhand",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q100",
+    "query": "Which legal sections or acts were applied in Ashok Saxena vs The State Of Uttarakhand?",
+    "case_name": "Ashok Saxena vs The State Of Uttarakhand",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q101",
+    "query": "What was the reasoning of the court in Ashok Saxena vs The State Of Uttarakhand?",
+    "case_name": "Ashok Saxena vs The State Of Uttarakhand",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q102",
+    "query": "Who were the parties and what was the dispute about in Ashok Saxena vs The State Of Uttarakhand?",
+    "case_name": "Ashok Saxena vs The State Of Uttarakhand",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q103",
+    "query": "Summarize the judgment in Ashok Singh vs State Of U.P.",
+    "case_name": "Ashok Singh vs State Of U.P",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q104",
+    "query": "What were the main legal issues in Ashok Singh vs State Of U.P?",
+    "case_name": "Ashok Singh vs State Of U.P",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q105",
+    "query": "What was the final verdict or decision in Ashok Singh vs State Of U.P?",
+    "case_name": "Ashok Singh vs State Of U.P",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q106",
+    "query": "Which legal sections or acts were applied in Ashok Singh vs State Of U.P?",
+    "case_name": "Ashok Singh vs State Of U.P",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q107",
+    "query": "What was the reasoning of the court in Ashok Singh vs State Of U.P?",
+    "case_name": "Ashok Singh vs State Of U.P",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q108",
+    "query": "Who were the parties and what was the dispute about in Ashok Singh vs State Of U.P?",
+    "case_name": "Ashok Singh vs State Of U.P",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q109",
+    "query": "Summarize the judgment in Aslam Alias Imran vs The State Of Madhya Pradesh.",
+    "case_name": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q110",
+    "query": "What were the main legal issues in Aslam Alias Imran vs The State Of Madhya Pradesh?",
+    "case_name": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q111",
+    "query": "What was the final verdict or decision in Aslam Alias Imran vs The State Of Madhya Pradesh?",
+    "case_name": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q112",
+    "query": "Which legal sections or acts were applied in Aslam Alias Imran vs The State Of Madhya Pradesh?",
+    "case_name": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q113",
+    "query": "What was the reasoning of the court in Aslam Alias Imran vs The State Of Madhya Pradesh?",
+    "case_name": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q114",
+    "query": "Who were the parties and what was the dispute about in Aslam Alias Imran vs The State Of Madhya Pradesh?",
+    "case_name": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q115",
+    "query": "Summarize the judgment in Atul Tiwari vs Regional Manager, Oriental Insurance.",
+    "case_name": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q116",
+    "query": "What were the main legal issues in Atul Tiwari vs Regional Manager, Oriental Insurance?",
+    "case_name": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q117",
+    "query": "What was the final verdict or decision in Atul Tiwari vs Regional Manager, Oriental Insurance?",
+    "case_name": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q118",
+    "query": "Which legal sections or acts were applied in Atul Tiwari vs Regional Manager, Oriental Insurance?",
+    "case_name": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q119",
+    "query": "What was the reasoning of the court in Atul Tiwari vs Regional Manager, Oriental Insurance?",
+    "case_name": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q120",
+    "query": "Who were the parties and what was the dispute about in Atul Tiwari vs Regional Manager, Oriental Insurance?",
+    "case_name": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q121",
+    "query": "Summarize the judgment in Ayyub vs State Of Uttar Pradesh.",
+    "case_name": "Ayyub vs State Of Uttar Pradesh",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q122",
+    "query": "What were the main legal issues in Ayyub vs State Of Uttar Pradesh?",
+    "case_name": "Ayyub vs State Of Uttar Pradesh",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q123",
+    "query": "What was the final verdict or decision in Ayyub vs State Of Uttar Pradesh?",
+    "case_name": "Ayyub vs State Of Uttar Pradesh",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q124",
+    "query": "Which legal sections or acts were applied in Ayyub vs State Of Uttar Pradesh?",
+    "case_name": "Ayyub vs State Of Uttar Pradesh",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q125",
+    "query": "What was the reasoning of the court in Ayyub vs State Of Uttar Pradesh?",
+    "case_name": "Ayyub vs State Of Uttar Pradesh",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q126",
+    "query": "Who were the parties and what was the dispute about in Ayyub vs State Of Uttar Pradesh?",
+    "case_name": "Ayyub vs State Of Uttar Pradesh",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q127",
+    "query": "Summarize the judgment in B.N. John vs The State Of Uttar Pradesh.",
+    "case_name": "B.N. John vs The State Of Uttar Pradesh",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q128",
+    "query": "What were the main legal issues in B.N. John vs The State Of Uttar Pradesh?",
+    "case_name": "B.N. John vs The State Of Uttar Pradesh",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q129",
+    "query": "What was the final verdict or decision in B.N. John vs The State Of Uttar Pradesh?",
+    "case_name": "B.N. John vs The State Of Uttar Pradesh",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q130",
+    "query": "Which legal sections or acts were applied in B.N. John vs The State Of Uttar Pradesh?",
+    "case_name": "B.N. John vs The State Of Uttar Pradesh",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q131",
+    "query": "What was the reasoning of the court in B.N. John vs The State Of Uttar Pradesh?",
+    "case_name": "B.N. John vs The State Of Uttar Pradesh",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q132",
+    "query": "Who were the parties and what was the dispute about in B.N. John vs The State Of Uttar Pradesh?",
+    "case_name": "B.N. John vs The State Of Uttar Pradesh",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q133",
+    "query": "Summarize the judgment in B.V. Ram Kumar vs State Of Telangana.",
+    "case_name": "B.V. Ram Kumar vs State Of Telangana",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q134",
+    "query": "What were the main legal issues in B.V. Ram Kumar vs State Of Telangana?",
+    "case_name": "B.V. Ram Kumar vs State Of Telangana",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q135",
+    "query": "What was the final verdict or decision in B.V. Ram Kumar vs State Of Telangana?",
+    "case_name": "B.V. Ram Kumar vs State Of Telangana",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q136",
+    "query": "Which legal sections or acts were applied in B.V. Ram Kumar vs State Of Telangana?",
+    "case_name": "B.V. Ram Kumar vs State Of Telangana",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q137",
+    "query": "What was the reasoning of the court in B.V. Ram Kumar vs State Of Telangana?",
+    "case_name": "B.V. Ram Kumar vs State Of Telangana",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q138",
+    "query": "Who were the parties and what was the dispute about in B.V. Ram Kumar vs State Of Telangana?",
+    "case_name": "B.V. Ram Kumar vs State Of Telangana",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q139",
+    "query": "Summarize the judgment in Baban Shankar Daphal vs The State Of Maharashtra.",
+    "case_name": "Baban Shankar Daphal vs The State Of Maharashtra",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q140",
+    "query": "What were the main legal issues in Baban Shankar Daphal vs The State Of Maharashtra?",
+    "case_name": "Baban Shankar Daphal vs The State Of Maharashtra",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q141",
+    "query": "What was the final verdict or decision in Baban Shankar Daphal vs The State Of Maharashtra?",
+    "case_name": "Baban Shankar Daphal vs The State Of Maharashtra",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q142",
+    "query": "Which legal sections or acts were applied in Baban Shankar Daphal vs The State Of Maharashtra?",
+    "case_name": "Baban Shankar Daphal vs The State Of Maharashtra",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q143",
+    "query": "What was the reasoning of the court in Baban Shankar Daphal vs The State Of Maharashtra?",
+    "case_name": "Baban Shankar Daphal vs The State Of Maharashtra",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q144",
+    "query": "Who were the parties and what was the dispute about in Baban Shankar Daphal vs The State Of Maharashtra?",
+    "case_name": "Baban Shankar Daphal vs The State Of Maharashtra",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q145",
+    "query": "Summarize the judgment in Badrinarayana Jaganathan vs The State Of Karnataka.",
+    "case_name": "Badrinarayana Jaganathan vs The State Of Karnataka",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q146",
+    "query": "What were the main legal issues in Badrinarayana Jaganathan vs The State Of Karnataka?",
+    "case_name": "Badrinarayana Jaganathan vs The State Of Karnataka",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q147",
+    "query": "What was the final verdict or decision in Badrinarayana Jaganathan vs The State Of Karnataka?",
+    "case_name": "Badrinarayana Jaganathan vs The State Of Karnataka",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q148",
+    "query": "Which legal sections or acts were applied in Badrinarayana Jaganathan vs The State Of Karnataka?",
+    "case_name": "Badrinarayana Jaganathan vs The State Of Karnataka",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q149",
+    "query": "What was the reasoning of the court in Badrinarayana Jaganathan vs The State Of Karnataka?",
+    "case_name": "Badrinarayana Jaganathan vs The State Of Karnataka",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q150",
+    "query": "Who were the parties and what was the dispute about in Badrinarayana Jaganathan vs The State Of Karnataka?",
+    "case_name": "Badrinarayana Jaganathan vs The State Of Karnataka",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q151",
+    "query": "Summarize the judgment in Balbir Singh vs Baldev Singh (D) Through His Lrs.",
+    "case_name": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q152",
+    "query": "What were the main legal issues in Balbir Singh vs Baldev Singh (D) Through His Lrs?",
+    "case_name": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q153",
+    "query": "What was the final verdict or decision in Balbir Singh vs Baldev Singh (D) Through His Lrs?",
+    "case_name": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q154",
+    "query": "Which legal sections or acts were applied in Balbir Singh vs Baldev Singh (D) Through His Lrs?",
+    "case_name": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q155",
+    "query": "What was the reasoning of the court in Balbir Singh vs Baldev Singh (D) Through His Lrs?",
+    "case_name": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q156",
+    "query": "Who were the parties and what was the dispute about in Balbir Singh vs Baldev Singh (D) Through His Lrs?",
+    "case_name": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+    "query_type": "parties"
+  },
+  {
+    "query_id": "Q157",
+    "query": "Summarize the judgment in Savukku Shankar vs State Of Tamil Nadu.",
+    "case_name": "Savukku Shankar vs State Of Tamil Nadu",
+    "query_type": "summary"
+  },
+  {
+    "query_id": "Q158",
+    "query": "What were the main legal issues in Savukku Shankar vs State Of Tamil Nadu?",
+    "case_name": "Savukku Shankar vs State Of Tamil Nadu",
+    "query_type": "issues"
+  },
+  {
+    "query_id": "Q159",
+    "query": "What was the final verdict or decision in Savukku Shankar vs State Of Tamil Nadu?",
+    "case_name": "Savukku Shankar vs State Of Tamil Nadu",
+    "query_type": "decision"
+  },
+  {
+    "query_id": "Q160",
+    "query": "Which legal sections or acts were applied in Savukku Shankar vs State Of Tamil Nadu?",
+    "case_name": "Savukku Shankar vs State Of Tamil Nadu",
+    "query_type": "sections"
+  },
+  {
+    "query_id": "Q161",
+    "query": "What was the reasoning of the court in Savukku Shankar vs State Of Tamil Nadu?",
+    "case_name": "Savukku Shankar vs State Of Tamil Nadu",
+    "query_type": "reasoning"
+  },
+  {
+    "query_id": "Q162",
+    "query": "Who were the parties and what was the dispute about in Savukku Shankar vs State Of Tamil Nadu?",
+    "case_name": "Savukku Shankar vs State Of Tamil Nadu",
+    "query_type": "parties"
+  }
+]

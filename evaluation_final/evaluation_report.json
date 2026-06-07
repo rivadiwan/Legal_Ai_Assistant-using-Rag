@@ -1,0 +1,2442 @@
+{
+  "aggregate": {
+    "precision@k_mean": 0.2,
+    "precision@k_std": 0.0,
+    "recall@k_mean": 1.0,
+    "mrr": 1.0,
+    "ndcg@k_mean": 1.0,
+    "queries_evaluated": 162
+  },
+  "per_query": [
+    {
+      "query_id": "Q001",
+      "gold": "A John Kennedy vs The State Of Tamil Nadu",
+      "retrieved": [
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q002",
+      "gold": "A John Kennedy vs The State Of Tamil Nadu",
+      "retrieved": [
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q003",
+      "gold": "A John Kennedy vs The State Of Tamil Nadu",
+      "retrieved": [
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q004",
+      "gold": "A John Kennedy vs The State Of Tamil Nadu",
+      "retrieved": [
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q005",
+      "gold": "A John Kennedy vs The State Of Tamil Nadu",
+      "retrieved": [
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q006",
+      "gold": "A John Kennedy vs The State Of Tamil Nadu",
+      "retrieved": [
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q007",
+      "gold": "A Rajendra vs Gonugunta Madhusudhan Rao",
+      "retrieved": [
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q008",
+      "gold": "A Rajendra vs Gonugunta Madhusudhan Rao",
+      "retrieved": [
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q009",
+      "gold": "A Rajendra vs Gonugunta Madhusudhan Rao",
+      "retrieved": [
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q010",
+      "gold": "A Rajendra vs Gonugunta Madhusudhan Rao",
+      "retrieved": [
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q011",
+      "gold": "A Rajendra vs Gonugunta Madhusudhan Rao",
+      "retrieved": [
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q012",
+      "gold": "A Rajendra vs Gonugunta Madhusudhan Rao",
+      "retrieved": [
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q013",
+      "gold": "Abdul Nassar vs The State Of Kerala",
+      "retrieved": [
+        "Abdul Nassar vs The State Of Kerala",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q014",
+      "gold": "Abdul Nassar vs The State Of Kerala",
+      "retrieved": [
+        "Abdul Nassar vs The State Of Kerala",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q015",
+      "gold": "Abdul Nassar vs The State Of Kerala",
+      "retrieved": [
+        "Abdul Nassar vs The State Of Kerala",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q016",
+      "gold": "Abdul Nassar vs The State Of Kerala",
+      "retrieved": [
+        "Abdul Nassar vs The State Of Kerala",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q017",
+      "gold": "Abdul Nassar vs The State Of Kerala",
+      "retrieved": [
+        "Abdul Nassar vs The State Of Kerala",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q018",
+      "gold": "Abdul Nassar vs The State Of Kerala",
+      "retrieved": [
+        "Abdul Nassar vs The State Of Kerala",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Wahid vs The State Of Rajasthan",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q019",
+      "gold": "Abdul Wahid vs The State Of Rajasthan",
+      "retrieved": [
+        "Abdul Wahid vs The State Of Rajasthan",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q020",
+      "gold": "Abdul Wahid vs The State Of Rajasthan",
+      "retrieved": [
+        "Abdul Wahid vs The State Of Rajasthan",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q021",
+      "gold": "Abdul Wahid vs The State Of Rajasthan",
+      "retrieved": [
+        "Abdul Wahid vs The State Of Rajasthan",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q022",
+      "gold": "Abdul Wahid vs The State Of Rajasthan",
+      "retrieved": [
+        "Abdul Wahid vs The State Of Rajasthan",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q023",
+      "gold": "Abdul Wahid vs The State Of Rajasthan",
+      "retrieved": [
+        "Abdul Wahid vs The State Of Rajasthan",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q024",
+      "gold": "Abdul Wahid vs The State Of Rajasthan",
+      "retrieved": [
+        "Abdul Wahid vs The State Of Rajasthan",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q025",
+      "gold": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+      "retrieved": [
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q026",
+      "gold": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+      "retrieved": [
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q027",
+      "gold": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+      "retrieved": [
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q028",
+      "gold": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+      "retrieved": [
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q029",
+      "gold": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+      "retrieved": [
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q030",
+      "gold": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+      "retrieved": [
+        "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q031",
+      "gold": "Airports Authority Of India vs Pradip Kumar Banerjee",
+      "retrieved": [
+        "Airports Authority Of India vs Pradip Kumar Banerjee",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q032",
+      "gold": "Airports Authority Of India vs Pradip Kumar Banerjee",
+      "retrieved": [
+        "Airports Authority Of India vs Pradip Kumar Banerjee",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q033",
+      "gold": "Airports Authority Of India vs Pradip Kumar Banerjee",
+      "retrieved": [
+        "Airports Authority Of India vs Pradip Kumar Banerjee",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q034",
+      "gold": "Airports Authority Of India vs Pradip Kumar Banerjee",
+      "retrieved": [
+        "Airports Authority Of India vs Pradip Kumar Banerjee",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q035",
+      "gold": "Airports Authority Of India vs Pradip Kumar Banerjee",
+      "retrieved": [
+        "Airports Authority Of India vs Pradip Kumar Banerjee",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q036",
+      "gold": "Airports Authority Of India vs Pradip Kumar Banerjee",
+      "retrieved": [
+        "Airports Authority Of India vs Pradip Kumar Banerjee",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q037",
+      "gold": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q038",
+      "gold": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q039",
+      "gold": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q040",
+      "gold": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q041",
+      "gold": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q042",
+      "gold": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q043",
+      "gold": "Ajay Malik vs State Of Uttarakhand",
+      "retrieved": [
+        "Ajay Malik vs State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q044",
+      "gold": "Ajay Malik vs State Of Uttarakhand",
+      "retrieved": [
+        "Ajay Malik vs State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q045",
+      "gold": "Ajay Malik vs State Of Uttarakhand",
+      "retrieved": [
+        "Ajay Malik vs State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q046",
+      "gold": "Ajay Malik vs State Of Uttarakhand",
+      "retrieved": [
+        "Ajay Malik vs State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q047",
+      "gold": "Ajay Malik vs State Of Uttarakhand",
+      "retrieved": [
+        "Ajay Malik vs State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q048",
+      "gold": "Ajay Malik vs State Of Uttarakhand",
+      "retrieved": [
+        "Ajay Malik vs State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q049",
+      "gold": "Ajay Singh vs Khacheru",
+      "retrieved": [
+        "Ajay Singh vs Khacheru",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q050",
+      "gold": "Ajay Singh vs Khacheru",
+      "retrieved": [
+        "Ajay Singh vs Khacheru",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q051",
+      "gold": "Ajay Singh vs Khacheru",
+      "retrieved": [
+        "Ajay Singh vs Khacheru",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q052",
+      "gold": "Ajay Singh vs Khacheru",
+      "retrieved": [
+        "Ajay Singh vs Khacheru",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q053",
+      "gold": "Ajay Singh vs Khacheru",
+      "retrieved": [
+        "Ajay Singh vs Khacheru",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q054",
+      "gold": "Ajay Singh vs Khacheru",
+      "retrieved": [
+        "Ajay Singh vs Khacheru",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q055",
+      "gold": "Akshay Gupta vs Icici Bank Limited",
+      "retrieved": [
+        "Akshay Gupta vs Icici Bank Limited",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q056",
+      "gold": "Akshay Gupta vs Icici Bank Limited",
+      "retrieved": [
+        "Akshay Gupta vs Icici Bank Limited",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q057",
+      "gold": "Akshay Gupta vs Icici Bank Limited",
+      "retrieved": [
+        "Akshay Gupta vs Icici Bank Limited",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q058",
+      "gold": "Akshay Gupta vs Icici Bank Limited",
+      "retrieved": [
+        "Akshay Gupta vs Icici Bank Limited",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q059",
+      "gold": "Akshay Gupta vs Icici Bank Limited",
+      "retrieved": [
+        "Akshay Gupta vs Icici Bank Limited",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q060",
+      "gold": "Akshay Gupta vs Icici Bank Limited",
+      "retrieved": [
+        "Akshay Gupta vs Icici Bank Limited",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q061",
+      "gold": "Akula Raghuram vs The State Of Andhra Pradesh",
+      "retrieved": [
+        "Akula Raghuram vs The State Of Andhra Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q062",
+      "gold": "Akula Raghuram vs The State Of Andhra Pradesh",
+      "retrieved": [
+        "Akula Raghuram vs The State Of Andhra Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q063",
+      "gold": "Akula Raghuram vs The State Of Andhra Pradesh",
+      "retrieved": [
+        "Akula Raghuram vs The State Of Andhra Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q064",
+      "gold": "Akula Raghuram vs The State Of Andhra Pradesh",
+      "retrieved": [
+        "Akula Raghuram vs The State Of Andhra Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q065",
+      "gold": "Akula Raghuram vs The State Of Andhra Pradesh",
+      "retrieved": [
+        "Akula Raghuram vs The State Of Andhra Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q066",
+      "gold": "Akula Raghuram vs The State Of Andhra Pradesh",
+      "retrieved": [
+        "Akula Raghuram vs The State Of Andhra Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q067",
+      "gold": "Amit Kumar vs Union Of India",
+      "retrieved": [
+        "Amit Kumar vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q068",
+      "gold": "Amit Kumar vs Union Of India",
+      "retrieved": [
+        "Amit Kumar vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q069",
+      "gold": "Amit Kumar vs Union Of India",
+      "retrieved": [
+        "Amit Kumar vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q070",
+      "gold": "Amit Kumar vs Union Of India",
+      "retrieved": [
+        "Amit Kumar vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q071",
+      "gold": "Amit Kumar vs Union Of India",
+      "retrieved": [
+        "Amit Kumar vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q072",
+      "gold": "Amit Kumar vs Union Of India",
+      "retrieved": [
+        "Amit Kumar vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q073",
+      "gold": "Amrit Yadav vs The State Of Jharkhand",
+      "retrieved": [
+        "Amrit Yadav vs The State Of Jharkhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q074",
+      "gold": "Amrit Yadav vs The State Of Jharkhand",
+      "retrieved": [
+        "Amrit Yadav vs The State Of Jharkhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q075",
+      "gold": "Amrit Yadav vs The State Of Jharkhand",
+      "retrieved": [
+        "Amrit Yadav vs The State Of Jharkhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q076",
+      "gold": "Amrit Yadav vs The State Of Jharkhand",
+      "retrieved": [
+        "Amrit Yadav vs The State Of Jharkhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q077",
+      "gold": "Amrit Yadav vs The State Of Jharkhand",
+      "retrieved": [
+        "Amrit Yadav vs The State Of Jharkhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q078",
+      "gold": "Amrit Yadav vs The State Of Jharkhand",
+      "retrieved": [
+        "Amrit Yadav vs The State Of Jharkhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q079",
+      "gold": "Anmol vs Union Of India",
+      "retrieved": [
+        "Anmol vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q080",
+      "gold": "Anmol vs Union Of India",
+      "retrieved": [
+        "Anmol vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q081",
+      "gold": "Anmol vs Union Of India",
+      "retrieved": [
+        "Anmol vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q082",
+      "gold": "Anmol vs Union Of India",
+      "retrieved": [
+        "Anmol vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q083",
+      "gold": "Anmol vs Union Of India",
+      "retrieved": [
+        "Anmol vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q084",
+      "gold": "Anmol vs Union Of India",
+      "retrieved": [
+        "Anmol vs Union Of India",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q085",
+      "gold": "Anraj Devi vs Deepak Kumar",
+      "retrieved": [
+        "Anraj Devi vs Deepak Kumar",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q086",
+      "gold": "Anraj Devi vs Deepak Kumar",
+      "retrieved": [
+        "Anraj Devi vs Deepak Kumar",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q087",
+      "gold": "Anraj Devi vs Deepak Kumar",
+      "retrieved": [
+        "Anraj Devi vs Deepak Kumar",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q088",
+      "gold": "Anraj Devi vs Deepak Kumar",
+      "retrieved": [
+        "Anraj Devi vs Deepak Kumar",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q089",
+      "gold": "Anraj Devi vs Deepak Kumar",
+      "retrieved": [
+        "Anraj Devi vs Deepak Kumar",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q090",
+      "gold": "Anraj Devi vs Deepak Kumar",
+      "retrieved": [
+        "Anraj Devi vs Deepak Kumar",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q091",
+      "gold": "Arun vs State Of Madhya Pradesh",
+      "retrieved": [
+        "Arun vs State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q092",
+      "gold": "Arun vs State Of Madhya Pradesh",
+      "retrieved": [
+        "Arun vs State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q093",
+      "gold": "Arun vs State Of Madhya Pradesh",
+      "retrieved": [
+        "Arun vs State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q094",
+      "gold": "Arun vs State Of Madhya Pradesh",
+      "retrieved": [
+        "Arun vs State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q095",
+      "gold": "Arun vs State Of Madhya Pradesh",
+      "retrieved": [
+        "Arun vs State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q096",
+      "gold": "Arun vs State Of Madhya Pradesh",
+      "retrieved": [
+        "Arun vs State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q097",
+      "gold": "Ashok Saxena vs The State Of Uttarakhand",
+      "retrieved": [
+        "Ashok Saxena vs The State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q098",
+      "gold": "Ashok Saxena vs The State Of Uttarakhand",
+      "retrieved": [
+        "Ashok Saxena vs The State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q099",
+      "gold": "Ashok Saxena vs The State Of Uttarakhand",
+      "retrieved": [
+        "Ashok Saxena vs The State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q100",
+      "gold": "Ashok Saxena vs The State Of Uttarakhand",
+      "retrieved": [
+        "Ashok Saxena vs The State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q101",
+      "gold": "Ashok Saxena vs The State Of Uttarakhand",
+      "retrieved": [
+        "Ashok Saxena vs The State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q102",
+      "gold": "Ashok Saxena vs The State Of Uttarakhand",
+      "retrieved": [
+        "Ashok Saxena vs The State Of Uttarakhand",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q103",
+      "gold": "Ashok Singh vs State Of U.P",
+      "retrieved": [
+        "Ashok Singh vs State Of U.P",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q104",
+      "gold": "Ashok Singh vs State Of U.P",
+      "retrieved": [
+        "Ashok Singh vs State Of U.P",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q105",
+      "gold": "Ashok Singh vs State Of U.P",
+      "retrieved": [
+        "Ashok Singh vs State Of U.P",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q106",
+      "gold": "Ashok Singh vs State Of U.P",
+      "retrieved": [
+        "Ashok Singh vs State Of U.P",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q107",
+      "gold": "Ashok Singh vs State Of U.P",
+      "retrieved": [
+        "Ashok Singh vs State Of U.P",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q108",
+      "gold": "Ashok Singh vs State Of U.P",
+      "retrieved": [
+        "Ashok Singh vs State Of U.P",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q109",
+      "gold": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+      "retrieved": [
+        "Aslam Alias Imran vs The State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q110",
+      "gold": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+      "retrieved": [
+        "Aslam Alias Imran vs The State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q111",
+      "gold": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+      "retrieved": [
+        "Aslam Alias Imran vs The State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q112",
+      "gold": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+      "retrieved": [
+        "Aslam Alias Imran vs The State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q113",
+      "gold": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+      "retrieved": [
+        "Aslam Alias Imran vs The State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q114",
+      "gold": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+      "retrieved": [
+        "Aslam Alias Imran vs The State Of Madhya Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q115",
+      "gold": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+      "retrieved": [
+        "Atul Tiwari vs Regional Manager, Oriental Insurance",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q116",
+      "gold": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+      "retrieved": [
+        "Atul Tiwari vs Regional Manager, Oriental Insurance",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q117",
+      "gold": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+      "retrieved": [
+        "Atul Tiwari vs Regional Manager, Oriental Insurance",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q118",
+      "gold": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+      "retrieved": [
+        "Atul Tiwari vs Regional Manager, Oriental Insurance",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q119",
+      "gold": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+      "retrieved": [
+        "Atul Tiwari vs Regional Manager, Oriental Insurance",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q120",
+      "gold": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+      "retrieved": [
+        "Atul Tiwari vs Regional Manager, Oriental Insurance",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q121",
+      "gold": "Ayyub vs State Of Uttar Pradesh",
+      "retrieved": [
+        "Ayyub vs State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q122",
+      "gold": "Ayyub vs State Of Uttar Pradesh",
+      "retrieved": [
+        "Ayyub vs State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q123",
+      "gold": "Ayyub vs State Of Uttar Pradesh",
+      "retrieved": [
+        "Ayyub vs State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q124",
+      "gold": "Ayyub vs State Of Uttar Pradesh",
+      "retrieved": [
+        "Ayyub vs State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q125",
+      "gold": "Ayyub vs State Of Uttar Pradesh",
+      "retrieved": [
+        "Ayyub vs State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q126",
+      "gold": "Ayyub vs State Of Uttar Pradesh",
+      "retrieved": [
+        "Ayyub vs State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q127",
+      "gold": "B.N. John vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "B.N. John vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q128",
+      "gold": "B.N. John vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "B.N. John vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q129",
+      "gold": "B.N. John vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "B.N. John vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q130",
+      "gold": "B.N. John vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "B.N. John vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q131",
+      "gold": "B.N. John vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "B.N. John vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q132",
+      "gold": "B.N. John vs The State Of Uttar Pradesh",
+      "retrieved": [
+        "B.N. John vs The State Of Uttar Pradesh",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q133",
+      "gold": "B.V. Ram Kumar vs State Of Telangana",
+      "retrieved": [
+        "B.V. Ram Kumar vs State Of Telangana",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q134",
+      "gold": "B.V. Ram Kumar vs State Of Telangana",
+      "retrieved": [
+        "B.V. Ram Kumar vs State Of Telangana",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q135",
+      "gold": "B.V. Ram Kumar vs State Of Telangana",
+      "retrieved": [
+        "B.V. Ram Kumar vs State Of Telangana",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q136",
+      "gold": "B.V. Ram Kumar vs State Of Telangana",
+      "retrieved": [
+        "B.V. Ram Kumar vs State Of Telangana",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q137",
+      "gold": "B.V. Ram Kumar vs State Of Telangana",
+      "retrieved": [
+        "B.V. Ram Kumar vs State Of Telangana",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q138",
+      "gold": "B.V. Ram Kumar vs State Of Telangana",
+      "retrieved": [
+        "B.V. Ram Kumar vs State Of Telangana",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q139",
+      "gold": "Baban Shankar Daphal vs The State Of Maharashtra",
+      "retrieved": [
+        "Baban Shankar Daphal vs The State Of Maharashtra",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q140",
+      "gold": "Baban Shankar Daphal vs The State Of Maharashtra",
+      "retrieved": [
+        "Baban Shankar Daphal vs The State Of Maharashtra",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q141",
+      "gold": "Baban Shankar Daphal vs The State Of Maharashtra",
+      "retrieved": [
+        "Baban Shankar Daphal vs The State Of Maharashtra",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q142",
+      "gold": "Baban Shankar Daphal vs The State Of Maharashtra",
+      "retrieved": [
+        "Baban Shankar Daphal vs The State Of Maharashtra",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q143",
+      "gold": "Baban Shankar Daphal vs The State Of Maharashtra",
+      "retrieved": [
+        "Baban Shankar Daphal vs The State Of Maharashtra",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q144",
+      "gold": "Baban Shankar Daphal vs The State Of Maharashtra",
+      "retrieved": [
+        "Baban Shankar Daphal vs The State Of Maharashtra",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q145",
+      "gold": "Badrinarayana Jaganathan vs The State Of Karnataka",
+      "retrieved": [
+        "Badrinarayana Jaganathan vs The State Of Karnataka",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q146",
+      "gold": "Badrinarayana Jaganathan vs The State Of Karnataka",
+      "retrieved": [
+        "Badrinarayana Jaganathan vs The State Of Karnataka",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q147",
+      "gold": "Badrinarayana Jaganathan vs The State Of Karnataka",
+      "retrieved": [
+        "Badrinarayana Jaganathan vs The State Of Karnataka",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q148",
+      "gold": "Badrinarayana Jaganathan vs The State Of Karnataka",
+      "retrieved": [
+        "Badrinarayana Jaganathan vs The State Of Karnataka",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q149",
+      "gold": "Badrinarayana Jaganathan vs The State Of Karnataka",
+      "retrieved": [
+        "Badrinarayana Jaganathan vs The State Of Karnataka",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q150",
+      "gold": "Badrinarayana Jaganathan vs The State Of Karnataka",
+      "retrieved": [
+        "Badrinarayana Jaganathan vs The State Of Karnataka",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q151",
+      "gold": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+      "retrieved": [
+        "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q152",
+      "gold": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+      "retrieved": [
+        "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q153",
+      "gold": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+      "retrieved": [
+        "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q154",
+      "gold": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+      "retrieved": [
+        "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q155",
+      "gold": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+      "retrieved": [
+        "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q156",
+      "gold": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+      "retrieved": [
+        "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q157",
+      "gold": "Savukku Shankar vs State Of Tamil Nadu",
+      "retrieved": [
+        "Savukku Shankar vs State Of Tamil Nadu",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q158",
+      "gold": "Savukku Shankar vs State Of Tamil Nadu",
+      "retrieved": [
+        "Savukku Shankar vs State Of Tamil Nadu",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q159",
+      "gold": "Savukku Shankar vs State Of Tamil Nadu",
+      "retrieved": [
+        "Savukku Shankar vs State Of Tamil Nadu",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q160",
+      "gold": "Savukku Shankar vs State Of Tamil Nadu",
+      "retrieved": [
+        "Savukku Shankar vs State Of Tamil Nadu",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q161",
+      "gold": "Savukku Shankar vs State Of Tamil Nadu",
+      "retrieved": [
+        "Savukku Shankar vs State Of Tamil Nadu",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    },
+    {
+      "query_id": "Q162",
+      "gold": "Savukku Shankar vs State Of Tamil Nadu",
+      "retrieved": [
+        "Savukku Shankar vs State Of Tamil Nadu",
+        "A John Kennedy vs The State Of Tamil Nadu",
+        "A Rajendra vs Gonugunta Madhusudhan Rao",
+        "Abdul Nassar vs The State Of Kerala",
+        "Abdul Wahid vs The State Of Rajasthan"
+      ],
+      "precision@k": 0.2,
+      "recall@k": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg@k": 1.0
+    }
+  ]
+}

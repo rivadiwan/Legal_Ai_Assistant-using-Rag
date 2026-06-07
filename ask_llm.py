@@ -7,6 +7,7 @@ from hybrid_retrieve import *
 from reranker import rerank_results
 from dotenv import load_dotenv
 import os
+load_dotenv()
 
 from retrieve import (
     load_model,
@@ -18,7 +19,7 @@ from retrieve import (
 # GROQ API KEY
 
 # =========================
-load_dotenv()
+print("API KEY:", os.getenv("API_KEY"))
 client = Groq(
     api_key=os.getenv("API_KEY")
 )
@@ -26,7 +27,6 @@ client = Groq(
 # =========================
 # BUILD CONTEXT
 # =========================
-
 def build_context(results):
 
     context = ""
@@ -35,6 +35,7 @@ def build_context(results):
     for result in results:
 
         block = f"""
+
 CASE NAME:
 {result.get('case_name', '')}
 
@@ -45,6 +46,7 @@ LEGAL TEXT:
 {result.get('chunk_text', '')}
 
 --------------------------------------------------
+
 """
 
         if len(context) + len(block) > max_chars:
@@ -75,7 +77,7 @@ Rules:
 5. Summarize judgments in simple language.
 6. Explain legal sections clearly.
 7. Explain verdicts clearly.
-8. Answer in a professional and readable format that is understood by non lawyers also.
+8. Answer in a professional and readable format.
 9. Do not hallucinate.
 10. Do not use outside knowledge.
 11.If a fact is not explicitly stated in the context,do not infer it.
@@ -157,7 +159,11 @@ def main():
         #apna add ki debug k liye
         print("\n===== AFTER HYBRID =====")
         for r in results:
-            print(r["case_name"])
+            print(
+            r["case_name"],
+            "|",
+            r["chunk_text"][:80] )
+
         # =========================
         # RERANKING
         # =========================
