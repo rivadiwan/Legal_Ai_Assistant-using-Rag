@@ -1,35 +1,26 @@
+
 from sentence_transformers import CrossEncoder
 
-reranker = CrossEncoder(
-    "cross-encoder/ms-marco-MiniLM-L-6-v2"
-)
+_reranker = None
 
-
-def rerank_results(
-    query,
-    results,
-    top_k=5
-):
-
-    pairs = []
-
-    for result in results:
-
-        if "chunk" in result:
-
-            text = result["chunk"]["chunk_text"]
-
-        else:
-
-            text = result["chunk_text"]
-
-        pairs.append(
-            [query, text]
+def get_reranker():
+    global _reranker
+    if _reranker is None:
+        _reranker = CrossEncoder(
+            "cross-encoder/ms-marco-MiniLM-L-6-v2"
         )
+    return _reranker
 
-    scores = reranker.predict(
-        pairs
-    )
+def rerank_results(query, results, top_k=5):
+    if not results:
+        return []
+
+    pairs = [
+        [query, result["chunk_text"]]
+        for result in results
+    ]
+
+    scores = get_reranker().predict(pairs)
 
     ranked = sorted(
         zip(results, scores),
@@ -37,7 +28,4 @@ def rerank_results(
         reverse=True
     )
 
-    return [
-        item[0]
-        for item in ranked[:top_k]
-    ]
+    return [item[0] for item in ranked[:top_k]]

@@ -1,23 +1,19 @@
-"""Run automatic retrieval evaluation over `case_based_queries.json`.
+"""Run retrieval evaluation over case_based_queries.json using the hybrid retriever.
 
 Usage:
-    python run_evaluation.py --k 5 --mode simulate
-
-Modes:
-  - simulate: use a deterministic simulated retriever (fast, default)
-  - hybrid: attempt to import `hybrid_retrieve.hybrid_search` and call it (may require model/index setup)
+    python run_evaluation.py --k 5
 
 Outputs:
-  - prints aggregated metrics and writes `evaluation_report.json` in this folder.
+    - prints aggregated metrics and writes evaluation_report.json
 """
 
 import json
 import argparse
+import math
 import os
+import statistics
 import sys
-from collections import defaultdict
 
-# Ensure project root is on sys.path so imports like `hybrid_retrieve` resolve
 HERE = os.path.dirname(__file__)
 REPO_ROOT = os.path.abspath(os.path.join(HERE, ".."))
 if REPO_ROOT not in sys.path:
@@ -31,138 +27,114 @@ def load_queries(path):
         return json.load(f)
 
 
-# Metrics
+def load_retriever_resources():
+    from retrieve import load_model, load_faiss_index, load_chunks
+    from bm25_retriever import build_bm25
 
-def precision_at_k(retrieved, gold, k):
-    topk = retrieved[:k]
-    return 1.0 / k if gold in topk else 0.0
+    model = load_model()
+    index = load_faiss_index()
+    chunks = load_chunks()
+    bm25 = build_bm25(chunks)
+    return model, index, chunks, bm25
 
 
-def recall_at_k(retrieved, gold, k, total_relevant=1):
-    return 1.0 if gold in retrieved[:k] else 0.0
+def retrieve(query, model, index, chunks, bm25, top_k):
+    from hybrid_retrieve import hybrid_search
+    return hybrid_search(query, model, index, chunks, bm25, top_k=top_k)
 
 
-def reciprocal_rank(retrieved, gold):
+def extract_case_names(raw_results, k):
+    cases = []
+    seen = set()
+    for r in raw_results:
+        cn = r.get("case_name", "")
+        if cn and cn not in seen:
+            cases.append(cn)
+            seen.add(cn)
+        if len(cases) >= k:
+            break
+    return cases
+
+
+def is_case_match(raw_results):
+    return len(raw_results) > 0 and raw_results[0].get("score") == "CASE_MATCH"
+
+
+def precision_at_k(retrieved_cases, gold):
+    if not retrieved_cases:
+        return 0.0
+    return 1.0 / len(retrieved_cases) if gold in retrieved_cases else 0.0
+
+
+def recall_at_k(retrieved_cases, gold):
+    return 1.0 if gold in retrieved_cases else 0.0
+
+
+def reciprocal_rank(retrieved_cases, gold):
     try:
-        rank = retrieved.index(gold) + 1
+        rank = retrieved_cases.index(gold) + 1
         return 1.0 / rank
     except ValueError:
         return 0.0
 
 
-def ndcg_at_k(retrieved, gold, k):
-    # binary relevance; ideal DCG for single relevant item is 1.0
-    for i, r in enumerate(retrieved[:k]):
-        if r == gold:
-            # DCG position i -> contribution = 1 / log2(i+2)
-            import math
+def ndcg_at_k(retrieved_cases, gold):
+    for i, case in enumerate(retrieved_cases):
+        if case == gold:
             return 1.0 / math.log2(i + 2)
     return 0.0
 
 
-# Simple deterministic simulated retriever
-
-def simulated_retriever(query_obj, all_queries, k):
-    gold = query_obj["case_name"]
-    candidates = [q["case_name"] for q in all_queries if q["case_name"] != gold]
-    # deterministic order: as they appear
-    retrieved = [gold] + candidates
-    # dedupe while preserving order
-    seen = set()
-    out = []
-    for c in retrieved:
-        if c not in seen:
-            out.append(c)
-            seen.add(c)
-        if len(out) >= k:
-            break
-    return out
-
-
-# Try to call hybrid_search if requested
-
-def call_hybrid_retriever(query_text, k, debug=False):
-    try:
-        from hybrid_retrieve import hybrid_search
-    except Exception as e:
-        if debug:
-            print("Could not import hybrid_retrieve.hybrid_search:", e)
-        raise
-
-    # NOTE: model/index/chunks loaders live in `retrieve.py` in this repo
-    try:
-        from retrieve import load_model, load_faiss_index, load_chunks
-    except Exception as e:
-        if debug:
-            print("Could not import loaders from retrieve:", e)
-        raise
-
-    # Attempt to load model/index/chunks; build bm25 if available
-    try:
-        model = load_model()
-        index = load_faiss_index()
-        chunks = load_chunks()
-        try:
-            from retrieve import build_bm25
-            bm25 = build_bm25(chunks)
-        except Exception:
-            bm25 = None
-    except Exception as e:
-        if debug:
-            print("Failed to load model/index/chunks:", e)
-        raise
-
-    # hybrid_search returns list of dicts; map to case_name
-    raw = hybrid_search(query_text, model, index, chunks, bm25, top_k=k)
-    names = []
-    for r in raw:
-        if isinstance(r, dict):
-            names.append(r.get("case_name") or r.get("chunk_text")[:80])
-        else:
-            names.append(str(r))
-    return names
-
-
-def evaluate(queries, k=5, mode="simulate", debug=False):
+def evaluate(queries, k, model, index, chunks, bm25, debug=False):
     results = []
-    for q in queries:
-        qid = q.get("query_id")
-        gold = q.get("case_name")
-        if mode == "simulate":
-            retrieved = simulated_retriever(q, queries, k)
-        elif mode == "hybrid":
-            try:
-                retrieved = call_hybrid_retriever(q.get("query"), k, debug=debug)
-            except Exception as e:
-                print(f"hybrid mode failed for query {qid}: {e}")
-                retrieved = simulated_retriever(q, queries, k)
-        else:
-            raise ValueError("Unknown mode")
+    case_match_count = 0
 
-        p = precision_at_k(retrieved, gold, k)
-        r = recall_at_k(retrieved, gold, k)
-        rr = reciprocal_rank(retrieved, gold)
-        ndcg = ndcg_at_k(retrieved, gold, k)
+    for q in queries:
+        qid = q["query_id"]
+        gold = q["case_name"]
+        query_text = q["query"]
+
+        raw_results = retrieve(query_text, model, index, chunks, bm25, top_k=k)
+        retrieved_cases = extract_case_names(raw_results, k)
+        matched = is_case_match(raw_results)
+        if matched:
+            case_match_count += 1
+
+        p = precision_at_k(retrieved_cases, gold)
+        r = recall_at_k(retrieved_cases, gold)
+        rr = reciprocal_rank(retrieved_cases, gold)
+        ndcg = ndcg_at_k(retrieved_cases, gold)
+
+        if debug:
+            match_label = "[CASE_MATCH]" if matched else "[VECTOR+BM25]"
+            print(f"  {qid} {match_label} gold={gold[:50]}...  found={r > 0}  rank_reciprocal={rr:.3f}")
 
         results.append({
             "query_id": qid,
+            "query": query_text,
             "gold": gold,
-            "retrieved": retrieved,
+            "retrieved": retrieved_cases,
+            "case_match": matched,
             "precision@k": p,
             "recall@k": r,
             "reciprocal_rank": rr,
             "ndcg@k": ndcg,
         })
 
-    # aggregate
-    import statistics
+    precision_vals = [r["precision@k"] for r in results]
+    recall_vals = [r["recall@k"] for r in results]
+    rr_vals = [r["reciprocal_rank"] for r in results]
+    ndcg_vals = [r["ndcg@k"] for r in results]
+
     agg = {
-        "precision@k_mean": statistics.mean([r["precision@k"] for r in results]) if results else 0.0,
-        "precision@k_std": statistics.pstdev([r["precision@k"] for r in results]) if results else 0.0,
-        "recall@k_mean": statistics.mean([r["recall@k"] for r in results]) if results else 0.0,
-        "mrr": statistics.mean([r["reciprocal_rank"] for r in results]) if results else 0.0,
-        "ndcg@k_mean": statistics.mean([r["ndcg@k"] for r in results]) if results else 0.0,
+        "precision@k_mean": statistics.mean(precision_vals) if precision_vals else 0.0,
+        "recall@k_mean": statistics.mean(recall_vals) if recall_vals else 0.0,
+        "hits@k": statistics.mean([1.0 if v > 0 else 0.0 for v in recall_vals]) if recall_vals else 0.0,
+        "mrr": statistics.mean(rr_vals) if rr_vals else 0.0,
+        "ndcg@k_mean": statistics.mean(ndcg_vals) if ndcg_vals else 0.0,
         "queries_evaluated": len(results),
+        "case_match_queries": case_match_count,
+        "vector_search_queries": len(results) - case_match_count,
     }
 
     return results, agg
@@ -171,7 +143,6 @@ def evaluate(queries, k=5, mode="simulate", debug=False):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--k", type=int, default=5)
-    parser.add_argument("--mode", choices=["simulate", "hybrid"], default="simulate")
     parser.add_argument("--out", default="evaluation_report.json")
     parser.add_argument("--debug", action="store_true")
     args = parser.parse_args()
@@ -179,33 +150,27 @@ def main():
     queries = load_queries(QUERY_FILE)
     print(f"Loaded {len(queries)} queries from {QUERY_FILE}")
 
-    # Quick check: if hybrid mode requested but core deps (faiss, loaders) are missing,
-    # detect and fall back to simulate to avoid noisy per-query import errors.
-    if args.mode == "hybrid":
-        try:
-            # attempt light import to verify environment
-            import importlib
-            # check faiss first (common missing dependency)
-            importlib.import_module("faiss")
-            importlib.import_module("retrieve")
-            importlib.import_module("hybrid_retrieve")
-        except Exception as e:
-            print("Hybrid mode unavailable (missing deps). Falling back to simulate mode.")
-            if args.debug:
-                print("Hybrid import error:", e)
-            args.mode = "simulate"
+    print("\nLoading retriever resources (model, index, chunks, BM25)...")
+    model, index, chunks, bm25 = load_retriever_resources()
+    print(f"Resources loaded: model={type(model).__name__}, chunks={len(chunks)}")
 
-    results, agg = evaluate(queries, k=args.k, mode=args.mode, debug=args.debug)
+    print(f"\nRunning evaluation with k={args.k}...")
+    results, agg = evaluate(
+        queries, k=args.k, model=model, index=index,
+        chunks=chunks, bm25=bm25, debug=args.debug
+    )
 
     report = {"aggregate": agg, "per_query": results}
     out_path = os.path.join(HERE, args.out)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
 
-    # Print a short summary
     print("\nEvaluation summary:")
-    for k, v in agg.items():
-        print(f"- {k}: {v}")
+    for key, val in agg.items():
+        if isinstance(val, float):
+            print(f"  {key}: {val:.4f}")
+        else:
+            print(f"  {key}: {val}")
 
     print(f"\nFull report saved to: {out_path}")
 

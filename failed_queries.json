@@ -1,0 +1,14 @@
+[
+    {
+        "query_id": "Q_SC_2025_0025_01",
+        "query": "Workplace harassment and forced resignation case",
+        "expected_case": "Badrinarayana Jaganathan vs The State Of Karnataka",
+        "retrieved_cases": [
+            "Ajay Malik vs State Of Uttarakhand",
+            "Amit Kumar vs Union Of India",
+            "B.V. Ram Kumar vs State Of Telangana",
+            "Anmol vs Union Of India",
+            "Akula Raghuram vs The State Of Andhra Pradesh"
+        ]
+    }
+]

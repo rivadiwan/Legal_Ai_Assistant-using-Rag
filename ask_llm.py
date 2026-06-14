@@ -1,12 +1,9 @@
 import os
-
 from groq import Groq
-
 from bm25_retriever import *
 from hybrid_retrieve import *
 from reranker import rerank_results
 from dotenv import load_dotenv
-import os
 load_dotenv()
 
 from retrieve import (
@@ -19,7 +16,6 @@ from retrieve import (
 # GROQ API KEY
 
 # =========================
-print("API KEY:", os.getenv("API_KEY"))
 client = Groq(
     api_key=os.getenv("API_KEY")
 )
@@ -156,14 +152,6 @@ def main():
             top_k=10
         )
 
-        #apna add ki debug k liye
-        print("\n===== AFTER HYBRID =====")
-        for r in results:
-            print(
-            r["case_name"],
-            "|",
-            r["chunk_text"][:80] )
-
         # =========================
         # RERANKING
         # =========================
@@ -178,10 +166,6 @@ def main():
                 top_k=5
             )
 
-        #phirse debugg
-        print("\n===== AFTER RERANK =====")
-        for r in results:
-            print(r["case_name"])
 
         # =========================
         # BUILD CONTEXT
@@ -215,3 +199,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+    

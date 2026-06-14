@@ -1,0 +1,343 @@
+{
+    "metrics": {
+        "total_queries": 28,
+        "recall@1": 0.7857,
+        "recall@5": 0.8929,
+        "recall@10": 0.9643,
+        "mrr": 0.8355,
+        "failed_queries": 1
+    },
+    "details": [
+        {
+            "query_id": "Q_SC_2025_0001_01",
+            "query": "Case involving capital punishment and sexual offense charges in Kerala",
+            "expected_case": "Abdul Nassar vs The State Of Kerala",
+            "retrieved_cases": [
+                "Abdul Nassar vs The State Of Kerala",
+                "Ajay Malik vs State Of Uttarakhand",
+                "Amit Kumar vs Union Of India",
+                "Akula Raghuram vs The State Of Andhra Pradesh",
+                "Anmol vs Union Of India",
+                "B.N. John vs The State Of Uttar Pradesh",
+                "Airports Authority Of India vs Pradip Kumar Banerjee"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0001_02",
+            "query": "Find cases dealing with confirmation of death sentence by High Court",
+            "expected_case": "Abdul Nassar vs The State Of Kerala",
+            "retrieved_cases": [
+                "Abdul Nassar vs The State Of Kerala",
+                "Abdul Wahid vs The State Of Rajasthan",
+                "Amit Kumar vs Union Of India",
+                "Ashok Singh vs State Of U.P",
+                "Ajai Kumar Chauhan vs The State Of Uttar Pradesh"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0002_01",
+            "query": "Murder conviction under Section 302 with gang act provisions",
+            "expected_case": "Abdul Wahid vs The State Of Rajasthan",
+            "retrieved_cases": [
+                "Ashok Saxena vs The State Of Uttarakhand",
+                "Amit Kumar vs Union Of India",
+                "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+                "Badrinarayana Jaganathan vs The State Of Karnataka",
+                "Abdul Nassar vs The State Of Kerala",
+                "Abdul Wahid vs The State Of Rajasthan"
+            ],
+            "rank": 6
+        },
+        {
+            "query_id": "Q_SC_2025_0003_01",
+            "query": "Arbitration dispute involving registered stock broker and marital liability",
+            "expected_case": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+            "retrieved_cases": [
+                "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0004_01",
+            "query": "Government employee dismissal from Airports Authority",
+            "expected_case": "Airports Authority Of India vs Pradip Kumar Banerjee",
+            "retrieved_cases": [
+                "Airports Authority Of India vs Pradip Kumar Banerjee",
+                "Amrit Yadav vs The State Of Jharkhand"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0005_01",
+            "query": "Life imprisonment for knife attack causing death",
+            "expected_case": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+            "retrieved_cases": [
+                "Abdul Nassar vs The State Of Kerala",
+                "Atul Tiwari vs Regional Manager, Oriental Insurance",
+                "Ashok Saxena vs The State Of Uttarakhand",
+                "Aslam Alias Imran vs The State Of Madhya Pradesh",
+                "Baban Shankar Daphal vs The State Of Maharashtra",
+                "Abdul Wahid vs The State Of Rajasthan",
+                "Ajai Kumar Chauhan vs The State Of Uttar Pradesh"
+            ],
+            "rank": 7
+        },
+        {
+            "query_id": "Q_SC_2025_0006_01",
+            "query": "Domestic worker trafficking and wrongful confinement case",
+            "expected_case": "Ajay Malik vs State Of Uttarakhand",
+            "retrieved_cases": [
+                "Ajay Malik vs State Of Uttarakhand"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0007_01",
+            "query": "Land dispute involving pond and water rights classification",
+            "expected_case": "Ajay Singh vs Khacheru",
+            "retrieved_cases": [
+                "Ajay Singh vs Khacheru",
+                "Anmol vs Union Of India",
+                "Arun vs State Of Madhya Pradesh",
+                "Unknown"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0008_01",
+            "query": "Bank loan dispute and settlement between borrower and financial institution",
+            "expected_case": "Akshay Gupta vs Icici Bank Limited",
+            "retrieved_cases": [
+                "Akshay Gupta vs Icici Bank Limited",
+                "Ashok Singh vs State Of U.P",
+                "Unknown",
+                "Amit Kumar vs Union Of India",
+                "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0009_01",
+            "query": "Case involving abduction with intent to marry and age of victim",
+            "expected_case": "Akula Raghuram vs The State Of Andhra Pradesh",
+            "retrieved_cases": [
+                "Akula Raghuram vs The State Of Andhra Pradesh",
+                "Atul Tiwari vs Regional Manager, Oriental Insurance"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0010_01",
+            "query": "Student suicide case requesting FIR registration and investigation",
+            "expected_case": "Amit Kumar vs Union Of India",
+            "retrieved_cases": [
+                "Amit Kumar vs Union Of India",
+                "Ajay Malik vs State Of Uttarakhand"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0012_01",
+            "query": "Government employee recruitment panel and Class IV appointment dispute",
+            "expected_case": "Amrit Yadav vs The State Of Jharkhand",
+            "retrieved_cases": [
+                "Amrit Yadav vs The State Of Jharkhand"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0013_01",
+            "query": "Medical college admission for person with disabilities and locomotor disability",
+            "expected_case": "Anmol vs Union Of India",
+            "retrieved_cases": [
+                "Anmol vs Union Of India"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0014_01",
+            "query": "Non-compliance of court order regarding employment absorption",
+            "expected_case": "Anraj Devi vs Deepak Kumar",
+            "retrieved_cases": [
+                "Anraj Devi vs Deepak Kumar",
+                "Amrit Yadav vs The State Of Jharkhand",
+                "Ajay Malik vs State Of Uttarakhand",
+                "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+                "A John Kennedy vs The State Of Tamil Nadu"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0015_01",
+            "query": "Murder case with multiple accused in Madhya Pradesh",
+            "expected_case": "Arun vs State Of Madhya Pradesh",
+            "retrieved_cases": [
+                "Unknown",
+                "Abdul Nassar vs The State Of Kerala",
+                "Aslam Alias Imran vs The State Of Madhya Pradesh",
+                "Arun vs State Of Madhya Pradesh",
+                "Baban Shankar Daphal vs The State Of Maharashtra",
+                "Amit Kumar vs Union Of India",
+                "Atul Tiwari vs Regional Manager, Oriental Insurance"
+            ],
+            "rank": 4
+        },
+        {
+            "query_id": "Q_SC_2025_0016_01",
+            "query": "Acquittal set aside by government appeal on murder conviction",
+            "expected_case": "Ashok Saxena vs The State Of Uttarakhand",
+            "retrieved_cases": [
+                "Airports Authority Of India vs Pradip Kumar Banerjee",
+                "Ashok Singh vs State Of U.P",
+                "Ashok Saxena vs The State Of Uttarakhand",
+                "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+                "Abdul Wahid vs The State Of Rajasthan"
+            ],
+            "rank": 3
+        },
+        {
+            "query_id": "Q_SC_2025_0017_01",
+            "query": "Cheque dishonour case under negotiable instruments law",
+            "expected_case": "Ashok Singh vs State Of U.P",
+            "retrieved_cases": [
+                "Ashok Singh vs State Of U.P",
+                "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0018_01",
+            "query": "Murder with butcher knife causing death by bleeding",
+            "expected_case": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+            "retrieved_cases": [
+                "Aslam Alias Imran vs The State Of Madhya Pradesh",
+                "Ashok Saxena vs The State Of Uttarakhand",
+                "Amit Kumar vs Union Of India",
+                "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+                "Abdul Wahid vs The State Of Rajasthan"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0019_01",
+            "query": "Motor accident injury causing permanent disability compensation",
+            "expected_case": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+            "retrieved_cases": [
+                "Atul Tiwari vs Regional Manager, Oriental Insurance"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0020_01",
+            "query": "Abetment of suicide case involving cousin and romantic relationship",
+            "expected_case": "Ayyub vs State Of Uttar Pradesh",
+            "retrieved_cases": [
+                "Ayyub vs State Of Uttar Pradesh",
+                "Amit Kumar vs Union Of India",
+                "Anmol vs Union Of India"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0021_01",
+            "query": "Forest and tea estate workers rehabilitation and wildlife sanctuary",
+            "expected_case": "A John Kennedy vs The State Of Tamil Nadu",
+            "retrieved_cases": [
+                "A John Kennedy vs The State Of Tamil Nadu",
+                "Ajay Malik vs State Of Uttarakhand"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0022_01",
+            "query": "Shareholder and Managing Director insolvency resolution plan challenge",
+            "expected_case": "A Rajendra vs Gonugunta Madhusudhan Rao",
+            "retrieved_cases": [
+                "A Rajendra vs Gonugunta Madhusudhan Rao",
+                "Ashok Singh vs State Of U.P",
+                "Ajay Malik vs State Of Uttarakhand",
+                "Abdul Nassar vs The State Of Kerala",
+                "B.N. John vs The State Of Uttar Pradesh"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0023_01",
+            "query": "Cyber harassment and defamation case involving multiple police stations",
+            "expected_case": "Savukku Shankar vs State Of Tamil Nadu",
+            "retrieved_cases": [
+                "Savukku Shankar vs State Of Tamil Nadu",
+                "Anmol vs Union Of India",
+                "Baban Shankar Daphal vs The State Of Maharashtra",
+                "Amit Kumar vs Union Of India",
+                "Aslam Alias Imran vs The State Of Madhya Pradesh",
+                "Badrinarayana Jaganathan vs The State Of Karnataka"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0024_01",
+            "query": "Family murder case with strained relationship over decades",
+            "expected_case": "Baban Shankar Daphal vs The State Of Maharashtra",
+            "retrieved_cases": [
+                "Baban Shankar Daphal vs The State Of Maharashtra",
+                "Akula Raghuram vs The State Of Andhra Pradesh",
+                "Abdul Wahid vs The State Of Rajasthan",
+                "Amit Kumar vs Union Of India",
+                "Ashok Saxena vs The State Of Uttarakhand",
+                "Arun vs State Of Madhya Pradesh"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0025_01",
+            "query": "Workplace harassment and forced resignation case",
+            "expected_case": "Badrinarayana Jaganathan vs The State Of Karnataka",
+            "retrieved_cases": [
+                "Ajay Malik vs State Of Uttarakhand",
+                "Amit Kumar vs Union Of India",
+                "B.V. Ram Kumar vs State Of Telangana",
+                "Anmol vs Union Of India",
+                "Akula Raghuram vs The State Of Andhra Pradesh"
+            ],
+            "rank": null
+        },
+        {
+            "query_id": "Q_SC_2025_0026_01",
+            "query": "Specific performance of sale agreement and rescission dispute",
+            "expected_case": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+            "retrieved_cases": [
+                "Balbir Singh vs Baldev Singh (D) Through His Lrs"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0027_01",
+            "query": "Illegal raid on children's hostel without authorization",
+            "expected_case": "B.N. John vs The State Of Uttar Pradesh",
+            "retrieved_cases": [
+                "B.N. John vs The State Of Uttar Pradesh",
+                "Amit Kumar vs Union Of India",
+                "Badrinarayana Jaganathan vs The State Of Karnataka",
+                "Ajay Malik vs State Of Uttarakhand",
+                "Airports Authority Of India vs Pradip Kumar Banerjee"
+            ],
+            "rank": 1
+        },
+        {
+            "query_id": "Q_SC_2025_0028_01",
+            "query": "Government official harassment allegation during workplace interaction",
+            "expected_case": "B.V. Ram Kumar vs State Of Telangana",
+            "retrieved_cases": [
+                "Ajay Malik vs State Of Uttarakhand",
+                "B.V. Ram Kumar vs State Of Telangana",
+                "B.N. John vs The State Of Uttar Pradesh",
+                "Amit Kumar vs Union Of India",
+                "Ashok Singh vs State Of U.P"
+            ],
+            "rank": 2
+        }
+    ]
+}

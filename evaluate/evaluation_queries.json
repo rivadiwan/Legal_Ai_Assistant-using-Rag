@@ -1,0 +1,254 @@
+[
+  {
+    "query_id": "Q_SC_2025_0001_01",
+    "query": "Case involving capital punishment and sexual offense charges in Kerala",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Abdul Nassar vs The State Of Kerala",
+    "expected_answer": "Abdul Nassar case involving death sentence and Section 376 IPC charges",
+    "supporting_paragraphs": [1, 5],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0001_02",
+    "query": "Find cases dealing with confirmation of death sentence by High Court",
+    "query_type": "Legal Concept",
+    "expected_case": "Abdul Nassar vs The State Of Kerala",
+    "expected_answer": "Case where death sentence was referred for confirmation under Section 366 CrPC",
+    "supporting_paragraphs": [2, 3],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0002_01",
+    "query": "Murder conviction under Section 302 with gang act provisions",
+    "query_type": "Legal Concept",
+    "expected_case": "Abdul Wahid vs The State Of Rajasthan",
+    "expected_answer": "Conviction under Section 302 with Section 149 IPC for group crime",
+    "supporting_paragraphs": [1, 4],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0003_01",
+    "query": "Arbitration dispute involving registered stock broker and marital liability",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Ac Chokshi Share Broker Private Limited vs Jatin Pratap Desai",
+    "expected_answer": "AC Chokshi case involving BSE bye-laws and arbitration between broker and non-member",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0004_01",
+    "query": "Government employee dismissal from Airports Authority",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Airports Authority Of India vs Pradip Kumar Banerjee",
+    "expected_answer": "AAI employee case involving dismissal and reinstatement issues",
+    "supporting_paragraphs": [1, 5],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0005_01",
+    "query": "Life imprisonment for knife attack causing death",
+    "query_type": "Fact Retrieval",
+    "expected_case": "Ajai Kumar Chauhan vs The State Of Uttar Pradesh",
+    "expected_answer": "Criminal case involving knife injury resulting in death conviction",
+    "supporting_paragraphs": [2, 3],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0006_01",
+    "query": "Domestic worker trafficking and wrongful confinement case",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Ajay Malik vs State Of Uttarakhand",
+    "expected_answer": "Case involving female worker trafficking allegations",
+    "supporting_paragraphs": [1, 4],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0007_01",
+    "query": "Land dispute involving pond and water rights classification",
+    "query_type": "Legal Concept",
+    "expected_case": "Ajay Singh vs Khacheru",
+    "expected_answer": "Civil case about land classification as Johad/Oosar and consolidation scheme",
+    "supporting_paragraphs": [2, 4],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0008_01",
+    "query": "Bank loan dispute and settlement between borrower and financial institution",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Akshay Gupta vs Icici Bank Limited",
+    "expected_answer": "ICICI Bank case involving loan settlement and outstanding amount",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0009_01",
+    "query": "Case involving abduction with intent to marry and age of victim",
+    "query_type": "Legal Concept",
+    "expected_case": "Akula Raghuram vs The State Of Andhra Pradesh",
+    "expected_answer": "Conviction under Section 366-A IPC involving minor girl",
+    "supporting_paragraphs": [1, 2],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0010_01",
+    "query": "Student suicide case requesting FIR registration and investigation",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Amit Kumar vs Union Of India",
+    "expected_answer": "IIT Delhi suicide cases seeking FIR registration and CBI investigation",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0012_01",
+    "query": "Government employee recruitment panel and Class IV appointment dispute",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Amrit Yadav vs The State Of Jharkhand",
+    "expected_answer": "Jharkhand case about fresh panel requirement for government jobs",
+    "supporting_paragraphs": [1, 5],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0013_01",
+    "query": "Medical college admission for person with disabilities and locomotor disability",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Anmol vs Union Of India",
+    "expected_answer": "MBBS admission case with disability and Punjab High Court",
+    "supporting_paragraphs": [1, 2],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0014_01",
+    "query": "Non-compliance of court order regarding employment absorption",
+    "query_type": "Legal Procedure",
+    "expected_case": "Anraj Devi vs Deepak Kumar",
+    "expected_answer": "Contempt petition involving employee absorption and pension benefits",
+    "supporting_paragraphs": [1, 4],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0015_01",
+    "query": "Murder case with multiple accused in Madhya Pradesh",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Arun vs State Of Madhya Pradesh",
+    "expected_answer": "Indore case involving death of Mohan Singh with multiple suspects",
+    "supporting_paragraphs": [2, 3],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0016_01",
+    "query": "Acquittal set aside by government appeal on murder conviction",
+    "query_type": "Legal Procedure",
+    "expected_case": "Ashok Saxena vs The State Of Uttarakhand",
+    "expected_answer": "Government appeal challenging acquittal under Section 302 IPC",
+    "supporting_paragraphs": [1, 2],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0017_01",
+    "query": "Cheque dishonour case under negotiable instruments law",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Ashok Singh vs State Of U.P",
+    "expected_answer": "Bank of Baroda cheque bouncing case in Lucknow",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0018_01",
+    "query": "Murder with butcher knife causing death by bleeding",
+    "query_type": "Fact Retrieval",
+    "expected_case": "Aslam Alias Imran vs The State Of Madhya Pradesh",
+    "expected_answer": "Jabalpur murder case with weapon injury and death of Zahid Khan",
+    "supporting_paragraphs": [2, 3],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0019_01",
+    "query": "Motor accident injury causing permanent disability compensation",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Atul Tiwari vs Regional Manager, Oriental Insurance",
+    "expected_answer": "MACT case involving 60% disability and compensation award",
+    "supporting_paragraphs": [1, 4],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0020_01",
+    "query": "Abetment of suicide case involving cousin and romantic relationship",
+    "query_type": "Legal Concept",
+    "expected_case": "Ayyub vs State Of Uttar Pradesh",
+    "expected_answer": "Section 306 IPC case involving death of Tanu",
+    "supporting_paragraphs": [2, 5],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0021_01",
+    "query": "Forest and tea estate workers rehabilitation and wildlife sanctuary",
+    "query_type": "Semantic Similarity",
+    "expected_case": "A John Kennedy vs The State Of Tamil Nadu",
+    "expected_answer": "Tamil Nadu case involving tea estate eviction and forest reserves",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0022_01",
+    "query": "Shareholder and Managing Director insolvency resolution plan challenge",
+    "query_type": "Legal Concept",
+    "expected_case": "A Rajendra vs Gonugunta Madhusudhan Rao",
+    "expected_answer": "NCLAT case involving corporate debtor insolvency proceedings",
+    "supporting_paragraphs": [1, 2],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0023_01",
+    "query": "Cyber harassment and defamation case involving multiple police stations",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Savukku Shankar vs State Of Tamil Nadu",
+    "expected_answer": "Tamil Nadu cyber crime case involving Section 509 IPC and IT Act",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0024_01",
+    "query": "Family murder case with strained relationship over decades",
+    "query_type": "Fact Retrieval",
+    "expected_case": "Baban Shankar Daphal vs The State Of Maharashtra",
+    "expected_answer": "Maharashtra case involving death of Lalsaheb with family conflict",
+    "supporting_paragraphs": [2, 4],
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_SC_2025_0025_01",
+    "query": "Workplace harassment and forced resignation case",
+    "query_type": "Semantic Similarity",
+    "expected_case": "Badrinarayana Jaganathan vs The State Of Karnataka",
+    "expected_answer": "Case involving Juniper Networks and workplace harassment charges",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0026_01",
+    "query": "Specific performance of sale agreement and rescission dispute",
+    "query_type": "Legal Procedure",
+    "expected_case": "Balbir Singh vs Baldev Singh (D) Through His Lrs",
+    "expected_answer": "Multiple suits for specific performance with conditional decrees",
+    "supporting_paragraphs": [2, 4],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0027_01",
+    "query": "Illegal raid on children's hostel without authorization",
+    "query_type": "Semantic Similarity",
+    "expected_case": "B.N. John vs The State Of Uttar Pradesh",
+    "expected_answer": "Case involving hostel raid and Juvenile Justice Act violations",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q_SC_2025_0028_01",
+    "query": "Government official harassment allegation during workplace interaction",
+    "query_type": "Semantic Similarity",
+    "expected_case": "B.V. Ram Kumar vs State Of Telangana",
+    "expected_answer": "Telangana case involving Section 269, 270 and 504 IPC charges",
+    "supporting_paragraphs": [1, 3],
+    "difficulty": "hard"
+  }
+]

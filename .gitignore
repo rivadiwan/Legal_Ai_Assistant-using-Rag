@@ -13,3 +13,6 @@ old_version/
 *.index
 
 dataset/raw/
+desktop.ini
+validate_project.py
+RETRIEVAL_DIAGNOSIS.md
